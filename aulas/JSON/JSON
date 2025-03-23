@@ -1,0 +1,6 @@
+JSON/Javascript Object Notation - é um formato de texto usado para organização de dados
+Em python, json é um dicionário
+
+Usuário de rede social em json:
+{"id01": {"Nome": "Pietro", "idade": 15, "amigos": ["id02", "id03", "id04"], "foto_perfil": "image.png"}}
+

@@ -1,0 +1,5 @@
+Api, ou Application Programming interface e é uma interface intermediária entre códigos, por exemplo código => api => banco de dados de forma segura. O cliente solicita informações, esse request é enviado para a API, que procura e retorna o resultado de qualquer outro arquivo, como um banco de dados e o cliente usa o resultado da API (O retorno) para acessar dados
+
+A biblioteca requests em python é usada para fazer requisições HTTP, e nesse caso se conectar com a api
+
+no código em main.py, o endpoint (ponto de entrada da api onde dados são disponibilizados nesse caso) da api é o url fornecido na variável API_request, o conteúdo é o produto em json que foi retornado e código é o utilizador da api
