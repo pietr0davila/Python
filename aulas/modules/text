@@ -1,0 +1,7 @@
+Modularização 
+
+Com sistemas crescendo, códigos tinham muitas linhas. foi criada a modularização para dividir um programa grande, aumentar a legibilidade e facilitar a manutenção
+
+Módulos são importados com imports
+
+Quando módulos ficam grandes, python possibilita o uso de 
