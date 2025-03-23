@@ -18,10 +18,14 @@ def add_parameters():
 def treat_parameters(arguments):
     if arguments.hash:
         if arguments.f:
-            if os.path.exists(arguments.hash):
-                print("Test")
+            hash_file = arguments.hash
+            if os.path.exists(hash_file) and os.access(hash_file, os.R_OK):
+                with open(hash_file, "r", encoding="utf-8") as file:
+                    file.read()
+            else:
+                print("File does not exists or you don't have access")
         else:
-            print("O arquivo não é um path")
+            pass
     if arguments.wordlist:
         print(arguments.wordlist)
     if arguments.verbose:
