@@ -9,5 +9,6 @@ def create_args():
 
     parser.add_argument("hash", help="Hash to be cracked, first positional argument")
     parser.add_argument("wordlist", help="wordlist that will be used to crack the hash, second positional arguments")
-    parser.add_argument("-ht", "--hash_type", help="hash Type, use --hash_type_help to get all the options")
+    parser.add_argument("-ht", "--hash_type", help="hash Type, use --type_help to get all the options")
+    parser.add_argument("--type_help")
     
